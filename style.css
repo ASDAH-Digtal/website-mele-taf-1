@@ -5,9 +5,47 @@
     grid-template-areas: 
     "header header header header"
     "greeting_1 greeting_1 greeting_2 greeting_2"
-    "main main main main"
+    "main_1 main_2 main_2 main_3"
     "phonenumber phonenumber phonenumber phonenumber"
     "extra extra extra extra"
     "location location location location"
-    "footer footer footer footer"
+    "footer footer footer footer";
+}
+.header {
+    grid-area: header;
+    background-color;
+}
+ 
+.greeting_1 {
+    grid-area: greeting_1;
+}
+.greeting_2 {
+    grid-area: greeting_2;
+    background-color: aqua;
+}
+ 
+.main_1{
+    grid-area: main_1;
+}
+.main_2 {
+    grid-area: main_2;
+}
+.main_3{
+    grid-area: main_3;
+}
+.phonenumber {
+    grid-area: phonenumber;
+    background-color: aqua;
+}
+ 
+.extra {
+    grid-area: extra;
+}
+.location {
+    grid-area: location;
+}
+ 
+.footer {
+    grid-area: footer;
+    background-color: aqua;
 }
